@@ -1,5 +1,5 @@
 steps:
 - name: 'ubuntu'
-  args: ['sleep', '5']
+  args: ['sleep', '1']
 - name: 'ubuntu'
   args: [ "echo", "That was a long build ", "who: $_IC_LOGIN said: $_IC_BODY" ]
