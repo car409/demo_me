@@ -1,2 +1,2 @@
 # demo_me
-delete after today
+delete after today or tomorrow
