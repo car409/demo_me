@@ -1,3 +1,3 @@
 steps:
 - name: 'ubuntu'
-  args: [ "echo", "That was quick!!! ", "url:" $_FOO, " $_FOO_AFTER", $_FOO_AFTER ]
+  args: [ "echo", "That was quick!!! ", "url:", $_FOO, " $_FOO_AFTER", $_FOO_AFTER ]
