@@ -1,3 +1,5 @@
 steps:
 - name: 'ubuntu'
-  args: [ "echo", "That was quick!!! ", "$_IMAGE_TAG" ]
+  args:
+    - '-c'
+    -  'if [ $TAG_NAME == 'some_branch.prod' ]; true else false; fi'
