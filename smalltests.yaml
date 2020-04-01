@@ -1,5 +1,3 @@
 steps:
 - name: 'ubuntu'
-  args:
-    - '-c'
-    -  'if [ $TAG_NAME == 'some_branch.prod' ]; true else false; fi'
+  args: ['bash', '-c', 'if [ $TAG_NAME == 'some_branch.prod' ]; true else false; fi']
