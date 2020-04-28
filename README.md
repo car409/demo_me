@@ -1,8 +1,6 @@
 # demo_me
 delete after today or tomo\\\rrow maybe bhgfhfreak Proctor?
 
-
-
 ;ok;okkl;
 
 klk
