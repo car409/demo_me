@@ -1,5 +1,5 @@
 # demo_me
-delete after today or tomo\\\rrow maybe bhgfhfreak Proctor?
+delete after today yuuor tomo\\\rrow maybe bhgfhfreak Proctor?
 
 ;ok;okkl;
 
@@ -8,7 +8,7 @@ nbjhkblklkl
 XXXX push to master ag
 l;k;lk
 ain nmnoiopipoiopoioi
-lkhi
+lkhiytyty
 
 pkkl;o
 
