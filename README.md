@@ -4,9 +4,6 @@ jhjkh
 ;ok;okkl;
 
 klk
-nbjhkblklkl
-XXXX push to;ll;l master ag
-l;k;lk
 
 kljlkj
 
