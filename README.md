@@ -7,12 +7,7 @@ klk
 nbjhkblklkl
 XXXX push to;ll;l master ag
 l;k;lk
-ain nmjhkgkjhknoiopipoiopoioi
-lkhiytytoioiy
-kljkkkklkjkk
-pkkl;okjkjkjjhjhjh
 
-b hjgjhg jhkkjhkjh kmnm
 kljlkj
 
 '
