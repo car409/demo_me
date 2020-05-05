@@ -5,10 +5,6 @@ jhjkh
 
 klk
 
-kljlkj
-
-'
-';
 jhgjkjlkjoioi
 kjhkjh
 
