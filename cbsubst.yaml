@@ -1,6 +1,6 @@
 
 steps:
 - name: 'ubuntu'
-  args: [ "echo", "${BUILD_ID} ---- ${_SHORT_BUILD}"]
+  args: [ "echo", "${BUILD_ID} ---- Owner: ${_OWNER} XXXXX ${_UPPER_OWNER} : upper case?"]
 substitutions:
-    _SHORT_BUILD: ${BUILD_ID:0:5}
+    _UPPER_OWNER: ${_OWNER^^}
