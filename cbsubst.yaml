@@ -4,4 +4,4 @@ steps:
   args: [ "echo", "${BUILD_ID} ----\nOwner:\n${_OWNER}\nupper case:\n${_UPPER_OWNER}\ncombined:\n${_COMBINED}"]
 substitutions:
     _UPPER_OWNER: ${_OWNER^^}
-    _COMBINED: my-app-${_UPPER_OWNER:50:8}-prod
+    _COMBINED: my-app-${_UPPER_OWNER:1:3}-prod
