@@ -4,3 +4,4 @@ steps:
   args: [ "echo", "${BUILD_ID} ----\nOwner:\n${_OWNER}\nupper case:\n${_UPPER_OWNER}"]
 substitutions:
     _UPPER_OWNER: ${_OWNER^^}
+    _BROKEN: ${${_BAR}}
