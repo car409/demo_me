@@ -1,0 +1,6 @@
+
+steps:
+- name: 'ubuntu'
+  args: [ "echo", "${BUILD_ID} ---- ${_SHORT_BUILD}"]
+substitutions:
+    _SHORT_BUILD: ${BUILD_ID:0:5}
