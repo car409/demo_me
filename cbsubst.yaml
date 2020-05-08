@@ -8,3 +8,4 @@ substitutions:
     _BUILD_MUNGED: prefix-${BUILD_ID^^}-suffix!
     _PROJECT_MUNGED: before-${PROJECT_ID}-after
     _BRANCH_MUNGED: blah-${BRANCH_NAME^^}!!!!
+    _BUILD_ID_UNCHANGED: ${BUILD_ID}
