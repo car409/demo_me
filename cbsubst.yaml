@@ -8,7 +8,7 @@ substitutions:
     _BUILD_MUNGED: prefix-${BUILD_ID^^}-suffix!
     _DEFAULT: foo-${_BAZ=${PROJECT_ID^^}}-prod
     _PROJECT_MUNGED: before-${PROJECT_ID}-after
-    _BRANCH_MUNGED: blah-${BRANCH_NAME^^}!!!!!
+    _BRANCH_MUNGED: blah-${BRANCH_NAME^^}!!!
     _BUILD_ID_UNCHANGED: ${BUILD_ID}
     _COMMIT_SHA_CHANGED: ${COMMIT_SHA:0:8}
     _SHORT_SHA_CHANGED: blah-${SHORT_SHA^^}-baz
