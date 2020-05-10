@@ -3,7 +3,7 @@ steps:
 - name: 'ubuntu'
   args: [ "echo", "hello there"]
 substitutions:
-    _UPPER_OWNER: ${_OWNER^^}
+    _UPPER_OWNER: ${_OWNER_FROM_TRIGGER^^}
     _BUILD_ID_YAML: ${BUILD_ID:1:5}
     _PROJECT_ID_YAML: ${PROJECT_ID^^}
 
