@@ -1,18 +1,9 @@
 
 steps:
 - name: 'ubuntu'
-  args: [ "echo", "_BRANCH_MUNGED: ${_BRANCH_MUNGED}\nBUILD_ID: ${BUILD_ID}\nBUILD_MUNGED: ${_BUILD_MUNGED}\n_PROJECT_MUNGED: ${_PROJECT_MUNGED}\nOwner:\n${_OWNER}\nupper case:\n${_UPPER_OWNER}\ncombined:\n${_COMBINED}"]
+  args: [ "echo", "hello"]
 substitutions:
     _UPPER_OWNER: ${_OWNER^^}
-    _COMBINED: my-app-${_UPPER_OWNER:1:3}-prod
-    _BUILD_MUNGED: prefix-${BUILD_ID^^}-suffix!
-    _DEFAULT: foo-${_BAZ=${PROJECT_ID^^}}-prod
-    _PROJECT_MUNGED: before-${PROJECT_ID}-after
-    _BRANCH_MUNGED: blah-${BRANCH_NAME^^}!!!
-    _BUILD_ID_UNCHANGED: ${BUILD_ID}
-    _COMMIT_SHA_CHANGED: ${COMMIT_SHA:0:8}
-    _SHORT_SHA_CHANGED: blah-${SHORT_SHA^^}-baz
-    _REPO_NAME_CHANGED: ${REPO_NAME^}-boring
-    _BRANCH_NAME_CHANGED: best-branch-${BRANCH_NAME/ste/STE}-ever
-    _REVISION_ID_CHANGED: something-${REVISION_ID:0:3}-else
-    
+    _BUILD_ID_YAML: ${BUILD_ID:1:5}
+    _PROJECT_ID_YAML: ${PROJECT_ID^^}
+
