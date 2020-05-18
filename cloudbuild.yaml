@@ -1,6 +1,6 @@
 
 steps:
 - name: 'ubuntu'
-  args: ['sleep', '30']
+  args: ['sleep', '1']
 - name: 'ubuntu'
   args: [ "echo", "That was a long build" ]
