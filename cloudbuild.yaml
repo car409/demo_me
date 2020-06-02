@@ -3,4 +3,4 @@ steps:
 - name: 'ubuntu'
   args: ['sleep', '1']
 - name: 'ubuntu'
-  args: [ "echo", "That was a very long build!" ]
+  args: [ "echo", "That was a very long build! REPO_NAME ${REPO_NAME} COMMIT_SHA ${COMMIT_SHA}  REVISION_ID ${REVISION_ID}  SHORT_SHA ${SHORT_SHA}" ]
