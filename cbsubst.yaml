@@ -8,4 +8,6 @@ substitutions:
     _PROJECT_ID_YAML: ${PROJECT_ID^^}
     _COMPARE_URL: $(push.compare)
     _JSON_FILTER: $(push.commits[?(@.author.username=="car409")].author.email)
+options:
+    dynamic_substitutions: true
 
