@@ -1,7 +1,7 @@
 
 steps:
 - name: 'ubuntu'
-  args: [ "echo", "hello to for Michael seafarer. \n${_BUILD_ID_YAML}\n${_PROJECT_ID_FROM_TRIGGER}\n{$_COMPARE_URL}\nemail:${_JSON_FILTER}"]
+  args: [ "echo", "hello to for Michael permissions seafarer. \n${_BUILD_ID_YAML}\n${_PROJECT_ID_FROM_TRIGGER}\n{$_COMPARE_URL}\nemail:${_JSON_FILTER}"]
 substitutions:
     _UPPER_OWNER: ${_OWNER_MUNGED^^}
     _BUILD_ID_YAML: what-a-${BUILD_ID:1:5}-build-id!!!!!
