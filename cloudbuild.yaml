@@ -3,7 +3,7 @@ steps:
 - name: 'ubuntu'
   args: ['sleep', '1']
 - name: 'ubuntu'
-  args: [ "echo", "That was a for cnk! REPO_NAME ${REPO_NAME} COMMIT_SHA ${COMMIT_SHA}  REVISION_ID ${REVISION_ID}  SHORT_SHA ${SHORT_SHA}" ]
+  args: [ "echo", "That was a for  REPO_NAME ${REPO_NAME} COMMIT_SHA ${COMMIT_SHA}  REVISION_ID ${REVISION_ID}  SHORT_SHA ${SHORT_SHA}" ]
 
 substitutions:
     _TAG_NAME_IN_YAML: http-9.8.7
