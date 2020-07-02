@@ -10,4 +10,3 @@ substitutions:
     _JSON_FILTER: $(push.commits[?(@.author.username=="car409")].author.email)
 options:
     dynamic_substitutions: true
-    worker_pool: "projects/creich-test/locations/us-west1/workerPools/worker-pool"
