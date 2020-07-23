@@ -10,4 +10,4 @@ substitutions:
     _JSON_FILTER: $(push.commits[?(@.author.username=="car409")].author.email)
 options:
     dynamic_substitutions: true
-    worker_pool: "projects/cst-c-staging-0/workerPools/proctor-staging-wp"
+    worker_pool: ${_SOME_WP}
