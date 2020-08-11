@@ -1,8 +1,10 @@
 
 steps:
 - name: 'ubuntu'
+  id: 'ben'
   args: ['sleep', '1']
 - name: 'ubuntu'
+  id: 'ben'
   args: [ "echo", "That was a for REPO_NAME ${REPO_NAME} COMMIT_SHA ${COMMIT_SHA}  REVISION_ID ${REVISION_ID}  SHORT_SHA ${SHORT_SHA}" ]
 
 substitutions:
