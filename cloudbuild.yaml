@@ -2,8 +2,10 @@
 steps:
 - name: 'ubuntu'
   args: ['sleep', '1']
+  id: 'break_me'
 - name: 'ubuntu'
   args: [ "echo", "That was a for REPO_NAME ${REPO_NAME} COMMIT_SHA ${COMMIT_SHA}  REVISION_ID ${REVISION_ID}  SHORT_SHA ${SHORT_SHA}" ]
+  id: 'break_me'
 
 substitutions:
     _TAG_NAME_IN_YAML: http-9.8.7
