@@ -1,11 +1,12 @@
+#cloudbuild.yaml
 
 steps:
-- name: 'ubuntu'
-  args: [ "echo", "That was a for REPO_NAME ${REPO_NAME} COMMIT_SHA ${COMMIT_SHA}  REVISION_ID ${REVISION_ID}  SHORT_SHA ${SHORT_SHA} BRANCH_NAME ${BRANCH_NAME}" ]
-  id: 'break_me'
-
-substitutions:
-    _TAG_NAME_IN_YAML: http-9.8.7
-    _RESULT_IN_YAML: ${_TAG_NAME_IN_YAML%%.*}-latest
-options:
-    dynamic_substitutions: true
+- id: 'echo substitutions'
+  name: 'gcr.io/cloud-builders/git'
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    echo   SHORT_SHA: "${SHORT_SHA}"
+    echo BRANCH_NAME: "${BRANCH_NAME}"
+tags: ["TEST", "${SHORT_SHA}", "${BRANCH_NAME}"]
