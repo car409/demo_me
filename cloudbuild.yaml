@@ -1,9 +1,6 @@
 
 steps:
 - name: 'ubuntu'
-  args: ['sleep', '1']
-  id: 'break_me'
-- name: 'ubuntu'
   args: [ "echo", "That was a for REPO_NAME ${REPO_NAME} COMMIT_SHA ${COMMIT_SHA}  REVISION_ID ${REVISION_ID}  SHORT_SHA ${SHORT_SHA} BRANCH_NAME ${BRANCH_NAME}" ]
   id: 'break_me'
 
