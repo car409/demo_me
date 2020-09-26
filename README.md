@@ -1,4 +1,4 @@
 # demo_me
-delete me please. for real. can we panic now. how badly broken? still
+delete me please. for real. can we panic now. how badly broken?
 
 
