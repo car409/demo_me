@@ -4,7 +4,7 @@ steps:
   args: ['sleep', '1']
   id: 'dont_break_me'
 - name: 'ubuntu'
-  args: [ "echo", "That was I don't know a for REPO_NAME ${REPO_NAME} COMMIT_SHA ${COMMIT_SHA}  REVISION_ID ${REVISION_ID}  SHORT_SHA ${SHORT_SHA}" ]
+  args: [ "echo", "That was I don't know a for BORING_IMAGE_TAG $_BORING_IMAGE_TAG/no_space ... REPO_NAME $REPO_NAME COMMIT_SHA ${COMMIT_SHA}  REVISION_ID ${REVISION_ID}  SHORT_SHA ${SHORT_SHA}" ]
   id: 'break_me'
 
 substitutions:
