@@ -10,5 +10,7 @@ steps:
 substitutions:
     _TAG_NAME_IN_YAML: http-9.8.7
     _RESULT_IN_YAML: ${_TAG_NAME_IN_YAML%%.*}-latest
+    _PROJECT_NUMBER_CHANGED: ${PROJECT_NUMBER}-something
+    _PROEJCT_ID_CHANGED: ${PROJECT_ID}-something
 options:
     dynamic_substitutions: true
