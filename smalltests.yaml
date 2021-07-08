@@ -1,3 +1,5 @@
 steps:
 - name: 'ubuntu'
-  args: [ "echo", "That was quick!!! ", "$_IMAGE_TAG" ]
+  args: ["bash", "-c", "if [ $_TAG_NAME == some_branch.prod ]; then true; else false; fi"]
+- name: 'ubuntu'
+  args: ["bash", "-c", "echo We ran the second step"]
