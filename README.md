@@ -1,2 +1,2 @@
 # demo_me
-delete me please. vpc will block this time?
+delete me please. vpc will block this time with egress?
