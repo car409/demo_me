@@ -1,0 +1,18 @@
+steps:
+- name: 'ubuntu'
+  args: ['sleep', '1']
+  id: 'dont_break_me'
+- name: 'ubuntu'
+  args: [ "echo", "That was ENABLED FOR SURE AND REQUIRED I don't know a for REPO_NAME ${REPO_NAME} COMMIT_SHA ${COMMIT_SHA}  REVISION_ID ${REVISION_ID}  SHORT_SHA ${SHORT_SHA}" ]
+  id: 'break_me'
+
+substitutions:
+    _TAG_NAME_IN_YAML: http-9.8.7
+    _RESULT_IN_YAML: ${_TAG_NAME_IN_YAML%%.*}-latest
+    _PROJECT_NUMBER_CHANGED: ${PROJECT_NUMBER}-something
+    _PROJECT_ID_CHANGED: ${PROJECT_ID}-something
+    _BAZ: ${_BAR^^}
+    _BAR: ${PROJECT_ID}-${_TAG_NAME_IN_YAML}-${BUILD_ID}
+    
+options:
+    dynamic_substitutions: true
