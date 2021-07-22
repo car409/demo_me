@@ -1,2 +1,2 @@
 # demo_me
-delete me please. no vpc plus permissions are now there?
+delete me please. vpc enabled plus permissions are now there?
