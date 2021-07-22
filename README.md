@@ -1,2 +1,2 @@
 # demo_me
-delete me please. vpc enabled with no egress plus permissions are now there?
+delete me please. vpc enabled argo project with no egress plus permissions are now there?
