@@ -7,5 +7,5 @@ interesting commit message but no egress
 
 test-push again run build trigger disabled for me.
 
-deny
+deny and log
 
