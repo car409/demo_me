@@ -9,4 +9,4 @@ test-push again run build trigger disabled for me.
 
 deny again
 
-strange commit message again and again?
+strange commit message again and again with new trigger?
