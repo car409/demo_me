@@ -3,3 +3,5 @@ steps:
     args: 'true'
 options:
   logging: NONE
+  pool:
+    name: 'projects/creich-jlliu/locations/us-central1/workerPools/testing'
