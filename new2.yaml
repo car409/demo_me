@@ -7,3 +7,5 @@ steps:
 options:
     dynamic_substitutions: true
     logging: NONE
+    pool:
+      name: 'projects/creich-test-vpc/locations/us-central1/workerPools/staging-pool'
