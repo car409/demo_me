@@ -17,4 +17,4 @@ options:
     dynamic_substitutions: true
     logging: NONE
     pool:
-      name: 'projects/creich-jlliu/locations/us-central1/workerPools/testing'
+      name: 'projects/creich-jlliu/locations/us-east1/workerPools/testing2'
