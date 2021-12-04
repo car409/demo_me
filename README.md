@@ -7,10 +7,4 @@ interesting commit message but no egress
 
 test-push again run build trigger disabled for me.
 
-deny again
-
-strange commit message again and again with new trigger?
-
-Trigger a build?
-
-test staging with let's see
+Sample in worker_pool with manual_approval?
