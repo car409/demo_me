@@ -11,4 +11,4 @@ Sample in worker_pool with manual_approval?
 
 Monday morning
 
-head_commit.timestamp
+push_timestamp
