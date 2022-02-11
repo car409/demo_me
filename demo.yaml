@@ -1,0 +1,20 @@
+steps:
+- name: busybox
+  args:
+    - 'sleep'
+    - '10'
+
+
+substitutions:
+    _TAG_NAME_IN_YAML: http-9.8.7
+    _RESULT_IN_YAML: ${_TAG_NAME_IN_YAML%%.*}-latest
+    _PROJECT_NUMBER_CHANGED: ${PROJECT_NUMBER}-something
+    _PROJECT_ID_CHANGED: ${PROJECT_ID}-something
+    _BAZ: ${_BAR^^}
+    _BAR: ${PROJECT_ID}-${_TAG_NAME_IN_YAML}-${BUILD_ID}
+    
+options:
+    dynamic_substitutions: true
+    logging: NONE
+    pool:
+      name: 'projects/creich-demo/locations/us-east1/workerPools/for-demo'
